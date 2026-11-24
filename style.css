@@ -1,0 +1,54 @@
+title{
+    border: ;
+}
+body{
+    background-image:url("Asset/back2.webp")  ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+p{color: rgb(255, 0, 149);}
+h2{
+    color: whitesmoke;
+}
+h1{
+    color: black; font-style: italic ; font-family: 'roboto'; border: 10px;
+}
+label{
+    font-family: 'roboto';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(14, 3, 3);
+    display: block;
+}
+input{
+  font-family: 'roboto';
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(6, 11, 20);
+    display: block;
+    border-radius: 10px;;
+    /* padding: 15px;   */
+}
+table{
+    font-family: 'roboto';
+}
+div {
+    font-family: 'roboto';
+}
+strong {
+    font-family: 'roboto'
+    }
+
+    footer{
+        text-align: center;
+    }
+
+    #test {
+        padding: 50px;
+    }
+    button{
+        border-radius: 10px;
+        color: red;
+        background-color: blueviolet;
+    }

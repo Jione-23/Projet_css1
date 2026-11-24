@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Delicious</title>
+
+    <!-- Police Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="page">
+
+    <!-- Barre de navigation intégrée -->
+    <nav class="navbar">
+        <a href="#accueil" class="navbar__logo">🍽️ Menu Delicious</a>
+        <ul class="navbar__links">
+            <li><a class="navbar__link" href="#accueil">Accueil</a></li>
+            <li><a class="navbar__link" href="#entrees">Entrées</a></li>
+            <li><a class="navbar__link" href="#plats">Plats</a></li>
+            <li><a class="navbar__link" href="#desserts">Desserts</a></li>
+            <li><a class="navbar__link" href="#contact">Contact</a></li>
+            <li><a class="navbar__link navbar__link--cta" href="#reservation">Réserver</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero" id="accueil">
+        <h1 class="hero__title"> <marquee behavior="" direction="">Menu Delicious</marquee></h1>
+        <h2 class="hero__subtitle">Accueil</h2>
+    </header>
+
+    <!-- ENTRÉES -->
+    <table class="menu-table" id="entrees" align="center">
+        <tr>
+            <th colspan="3"><h2 class="menu-table__title">Entrées</h2></th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish">
+                <strong class="dish__name">Salade caprese</strong><br>
+                <img class="dish__img" src="Asset/Salade caprese.jpeg" width="300" height="250" alt="Salade caprese faite de tomates fraîches, mozzarella et basilic arrosés de glaçage balsamique">
+            </th>
+            <th class="spacer"></th>
+            <th class="dish">
+                <strong class="dish__name">Salade de chèvre chaud</strong><br>
+                <img class="dish__img" src="Asset/Salade chèvre.jpeg" width="300" height="250" alt="Salade de chèvre chaud avec salade, avocat et jambon de Parme">
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish">
+                <p class="dish__desc">Tomates fraîches, mozzarella et <br> basilic arrosés de glaçage balsamique</p>
+            </th>
+            <th class="spacer"></th>
+            <th class="dish">
+                <p class="dish__desc">Salade, avocat et jambon de Parme</p>
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish" colspan="3">
+                <strong class="dish__name">Tarte à la tomate et moutarde</strong><br>
+                <img class="dish__img" src="Asset/Tarte à la tomate.jpeg" width="300" height="250" alt="Tarte à la tomate et moutarde, herbes de Provence, huile d'olive">
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish" colspan="3">
+                <p class="dish__desc">Tomates, moutarde, herbes de <br> Provence, huile d'olive</p>
+            </th>
+        </tr>
+    </table>
+
+    <!-- PLATS PRINCIPAUX -->
+    <table class="menu-table" id="plats" align="center">
+        <tr>
+            <th colspan="3"><h2 class="menu-table__title">Plats principaux</h2></th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish">
+                <strong class="dish__name">Ngoudja avec la viande</strong><br>
+                <img class="dish__img" src="Asset/Ngoundja.jpeg" width="300" height="300" alt="Ngoudja : feuilles de manioc, viande de bœuf, pâte d'arachide, persil, céleri et huile d'arachide">
+            </th>
+            <th class="spacer"></th>
+            <th class="dish">
+                <strong class="dish__name">Yambanda de koko avec la viande</strong><br>
+                <img class="dish__img" src="Asset/KOKO.jpeg" width="300" height="350" alt="Yambanda de koko avec la viande">
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish">
+                <p class="dish__desc">Feuilles de manioc, viande de bœuf, pâte d'arachide, <br> persil, céleri et huile d'arachide</p>
+            </th>
+            <th class="spacer"></th>
+            <th class="dish">
+                <p class="dish__desc">Feuilles de Yétum (koko), viande de bœuf,<br> persil, céleri et huile d'arachide</p>
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish" colspan="3">
+                <strong class="dish__name">Makongo</strong><br>
+                <img class="dish__img" src="Asset/Makongo.jpeg" width="300" height="250" alt="Makongo (chenilles), tomates, persil, céleri, huile d'arachide">
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish" colspan="3">
+                <p class="dish__desc">Makongo (chenilles), tomates, persil <br> et céleri, huile d'arachide</p>
+            </th>
+        </tr>
+    </table>
+
+    <!-- DESSERTS -->
+    <table class="menu-table" id="desserts" align="center">
+        <tr>
+            <th colspan="3"><h2 class="menu-table__title">Desserts</h2></th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish">
+                <strong class="dish__name">Salade de fruits au bissap blanc</strong><br>
+                <img class="dish__img" src="Asset/So.jpeg" width="300" height="250" alt="Salade de fruits : fraise, ananas, jus de bissap">
+            </th>
+            <th class="spacer"></th>
+            <th class="dish">
+                <strong class="dish__name">Tiramisu bouye</strong><br>
+                <img class="dish__img" src="Asset/Tiramis.jpeg" width="300" height="250" alt="Tiramisu au bouye et au lait">
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish">
+                <p class="dish__desc">Fraise, ananas, jus de bissap</p>
+            </th>
+            <th class="spacer"></th>
+            <th class="dish">
+                <p class="dish__desc">Bouye, lait, tiramisu</p>
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish" colspan="3">
+                <strong class="dish__name">Glace saveur bissap-framboise</strong><br>
+                <img class="dish__img" src="Asset/framboise.jpeg" width="300" height="250" alt="Glace bissap-framboise, crème froide et lait concentré">
+            </th>
+        </tr>
+        <tr class="menu-table__row">
+            <th class="dish" colspan="3">
+                <p class="dish__desc">Bissap, crème froide, lait concentré et framboise</p>
+            </th>
+        </tr>
+    </table>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+        <h3 class="contact__title">Pour nous contacter</h3>
+        <p class="contact__item">
+            ✉️ Email : <a class="contact__link" href="mailto:arjionesiphorkoyadeli@gmail.com">arjionesiphorkoyadeli@gmail.com</a>
+        </p>
+        <p class="contact__item">
+            📞 Tél : <a class="contact__link" href="tel:+221710091156">+221710091156</a>
+        </p>
+    </section>
+
+    <!-- RÉSERVATION -->
+    <section class="booking" id="reservation">
+        <h3 class="booking__title">Pour toute réservation, veuillez remplir les champs suivants</h3>
+        <form class="form" action="https://gomycode.com/sn/fr/">
+            <label class="form__label" for="nom">Prénom et nom</label>
+            <input class="form__input" type="text" id="nom" name="nom">
+
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" type="email" id="email" name="email">
+
+            <label class="form__label" for="adresse">Adresse</label>
+            <input class="form__input" type="text" id="adresse" name="adresse">
+
+            <label class="form__label" for="tel">Tél</label>
+            <input class="form__input" type="tel" id="tel" name="tel">
+
+            <label class="form__label" for="date">Date</label>
+            <input class="form__input" type="date" id="date" name="date">
+
+            <label class="form__label" for="test">Commentaire</label>
+            <textarea class="form__input form__textarea" id="test" name="commentaire" rows="4"></textarea>
+
+            <button class="btn" type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__text">@Menu Delicious avec vous partout où vous êtes !!!</p>
+    </footer>
+
+</body>
+</html>
